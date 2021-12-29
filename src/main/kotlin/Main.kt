@@ -2,6 +2,7 @@ import demos.Demo
 import demos.annotations.AnnotationsDemo
 import demos.delegates.ClassDelegatesDemo
 import demos.delegates.PropertyDelegatesDemo
+import demos.inline.InlinesDemo
 
 object Main {
 
@@ -9,7 +10,8 @@ object Main {
         listOf(
             AnnotationsDemo(),
             ClassDelegatesDemo(),
-            PropertyDelegatesDemo()
+            PropertyDelegatesDemo(),
+            InlinesDemo()
         )
     }
 
