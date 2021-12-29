@@ -3,6 +3,7 @@ import demos.annotations.AnnotationsDemo
 import demos.delegates.ClassDelegatesDemo
 import demos.delegates.PropertyDelegatesDemo
 import demos.inline.InlinesDemo
+import demos.sequences.SequencesDemo
 
 object Main {
 
@@ -11,14 +12,13 @@ object Main {
             AnnotationsDemo(),
             ClassDelegatesDemo(),
             PropertyDelegatesDemo(),
-            InlinesDemo()
+            InlinesDemo(),
+            SequencesDemo()
         )
     }
 
     @JvmStatic
     fun main(args: Array<String>) {
-        demos.forEach {
-            it()
-        }
+        demos.forEach { it() }
     }
 }
