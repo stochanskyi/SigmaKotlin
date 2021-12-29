@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9a7fd5c-2a23-4a44-86a2-7adbe16dc33f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/demos/delegates/ClassDelegatesDemo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/demos/delegates/PropertyDelegetesDemo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/features/delegates/delegation/SafeGettingList.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/features/delegates/delegation/restorablelist/RestorableMutableList.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/features/delegates/delegation/restorablelist/actions/ListAction.kt" afterDir="false" />
+    <list default="true" id="c9a7fd5c-2a23-4a44-86a2-7adbe16dc33f" name="Changes" comment="Implement class delegating demo">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/features/delegates/propertiesdelegation/DataStorage.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/features/delegates/propertiesdelegation/StorageDelegate.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/demos/delegates/PropertyDelegetesDemo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/demos/delegates/PropertyDelegatesDemo.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -105,8 +102,17 @@
       <option name="presentableId" value="Default" />
       <updated>1640696142598</updated>
       <workItem from="1640696144548" duration="251000" />
-      <workItem from="1640696529322" duration="5259000" />
+      <workItem from="1640696529322" duration="5876000" />
+      <workItem from="1640791034943" duration="2066000" />
     </task>
+    <task id="LOCAL-00001" summary="Implement class delegating demo">
+      <created>1640702988137</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1640702988137</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,5 +128,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Implement class delegating demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implement class delegating demo" />
   </component>
 </project>
