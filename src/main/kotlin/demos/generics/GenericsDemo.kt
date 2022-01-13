@@ -1,7 +1,6 @@
 package demos.generics
 
 import demos.Demo
-import jdk.jshell.spi.ExecutionControl
 
 class GenericsDemo : Demo {
     override val name: String = "Generics Demo"
@@ -28,13 +27,13 @@ class GenericsDemo : Demo {
 
 private class GenericClass<T> {
 
-    fun returnFunc(): T { throw ExecutionControl.NotImplementedException("") }
+    fun returnFunc(): T { throw NotImplementedError("") }
     fun inputFunc(v: T) { }
 }
 
 private class CovariantGenericClass<out T> {
 
-    fun returnFunc(): T { throw ExecutionControl.NotImplementedException("") }
+    fun returnFunc(): T { throw NotImplementedError("") }
 
     /**
      * fun inputFunc(v: T) { }

@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9a7fd5c-2a23-4a44-86a2-7adbe16dc33f" name="Changes" comment="Add DSL builder" />
+    <list default="true" id="c9a7fd5c-2a23-4a44-86a2-7adbe16dc33f" name="Changes" comment="Fix clearing last action after restoring, cleanup remove function">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/demos/generics/GenericsDemo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/demos/generics/GenericsDemo.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -100,6 +103,7 @@
       <workItem from="1640696529322" duration="5876000" />
       <workItem from="1640791034943" duration="7986000" />
       <workItem from="1640872017054" duration="4712000" />
+      <workItem from="1642078521283" duration="719000" />
     </task>
     <task id="LOCAL-00001" summary="Implement class delegating demo">
       <created>1640702988137</created>
@@ -157,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640889911412</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Fix clearing last action after restoring, cleanup remove function">
+      <created>1642078759657</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1642078759658</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +194,7 @@
     <MESSAGE value="Add sequance demo" />
     <MESSAGE value="Add generics demo" />
     <MESSAGE value="Add DSL builder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add DSL builder" />
+    <MESSAGE value="Fix clearing last action after restoring, cleanup remove function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix clearing last action after restoring, cleanup remove function" />
   </component>
 </project>
