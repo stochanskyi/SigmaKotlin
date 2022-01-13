@@ -11,10 +11,10 @@ class RestorableMutableList<T>(
     private var lastAction: ListAction<T>? = null
 
     override fun removeAt(index: Int): T {
-        val value = list[index]
+        val value = list.removeAt(index)
         lastAction = DeleteElementAction(index, value)
 
-        return list.removeAt(index)
+        return value
     }
 
     override fun add(index: Int, element: T) {
@@ -27,6 +27,8 @@ class RestorableMutableList<T>(
         val action = lastAction ?: return
 
         action.redoAction(list)
+
+        lastAction = null
     }
 
 }
